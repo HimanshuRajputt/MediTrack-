@@ -26,7 +26,7 @@ prescriptionRoutes.get("/", authMiddleware, getPrescriptions);
 
 // ✅ Approve Prescription (Admin Only)
 prescriptionRoutes.put(
-  "/:id/approve",
+  "/:id/approved",
   authMiddleware,
   adminMiddleware,
   approvePrescription
@@ -34,7 +34,7 @@ prescriptionRoutes.put(
 
 // ✅ Reject Prescription (Admin Only)
 prescriptionRoutes.put(
-  "/:id/reject",
+  "/:id/rejected",
   authMiddleware,
   adminMiddleware,
   rejectPrescription
