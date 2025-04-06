@@ -52,12 +52,12 @@ const AdminPanel = () => {
         setFilteredPrescriptions(response.data);
       } catch (error) {
         console.error("Error fetching prescriptions:", error);
-        toast({
-          title: "Error fetching prescriptions",
-          status: "error",
-          duration: 3000,
-          isClosable: true,
-        });
+        // toast({
+        //   title: "Error fetching prescriptions",
+        //   status: "error",
+        //   duration: 3000,
+        //   isClosable: true,
+        // });
       } finally {
         setLoading(false);
       }
