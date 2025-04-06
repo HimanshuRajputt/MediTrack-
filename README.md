@@ -127,6 +127,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Your Name - [rajput6600himanshu@gmail.com](mailto:rajput6600himanshu@gmail.com)
+Your Name - [Himanshu Rajput](mailto:rajput6600himanshu@gmail.com)
 
 Project Link: [Repo Link-](https://github.com/HimanshuRajputt/MediTrack-)
